@@ -10,10 +10,6 @@ $ git add README.md
 warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
 
 HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
-$ get status
-bash: get: command not found
-
-HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
 $ git status
 On branch master
 
