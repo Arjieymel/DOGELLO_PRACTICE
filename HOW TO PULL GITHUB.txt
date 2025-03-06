@@ -1,0 +1,17 @@
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/GIT
+$ git clone https://github.com/bedimcode/portfolio-responsive-complete.git
+Cloning into 'portfolio-responsive-complete'...
+remote: Enumerating objects: 93, done.
+remote: Total 93 (delta 0), reused 0 (delta 0), pack-reused 93 (from 1)
+Receiving objects: 100% (93/93), 422.92 KiB | 406.00 KiB/s, done.
+Resolving deltas: 100% (28/28), done.
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/GIT
+$ cd portfolio-responsive-complete
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/GIT/portfolio-responsive-complete (main)
+$ code .
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/GIT/portfolio-responsive-complete (main)
+$
+

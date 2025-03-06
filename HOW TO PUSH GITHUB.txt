@@ -1,0 +1,121 @@
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo
+$ echo "# Github_demo_repo" >> README.md
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo
+$ git init
+Initialized empty Git repository in C:/Users/HP/Desktop/github_demo/.git/
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ get status
+bash: get: command not found
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        gith.html
+
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git add .
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   gith.html
+
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP@DESKTOP-H79CBPN.(none)')
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP@DESKTOP-H79CBPN.(none)')
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git config --global user.email "rjmeldogello6@gmail.com"
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git config--global user.name "Rjmel Dogello"
+git: 'config--global' is not a git command. See 'git --help'.
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git commit -m "first commit"
+[master (root-commit) 6a59dfe] first commit
+ 2 files changed, 36 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 gith.html
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (master)
+$ git branch -M main
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (main)
+$ git remote add origin https://github.com/Arjieymel/Github_demo_repo.git
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (main)
+$ git push -u origin main
+fatal: User cancelled dialog.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Username for 'https://github.com': Arjieymel
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Arjieymel/Github_demo_repo.git/'
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 990 bytes | 495.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Arjieymel/Github_demo_repo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+HP@DESKTOP-H79CBPN MINGW64 ~/Desktop/github_demo (main)
+$
